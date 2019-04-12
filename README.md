@@ -29,3 +29,5 @@ major code refactor.
 Dependencies are mostly inherited from i3lock-color:
 * Arch: install `cairo, libev, libx11, pam, xcb-util-image, xcb-util-keysyms, libxkbcommon-x11`
 * Debian-based: do `sudo apt install pkg-config libxcb1 libpam-dev libcairo2-dev libxcb-composite0 libxcb-composite0-dev libxcb-xinerama0-dev libev-dev libx11-dev libx11-xcb-dev libxkbcommon0 libxkbcommon-x11-0 libxcb-dpms0-dev libxcb-image0-dev libxcb-util0-dev libxcb-xkb-dev libxkbfile-dev libxkbcommon-x11-dev libxkbcommon-dev`
+* RPM-Based: install `pkg-config libxcb libxcb-util libpam-dev libcairo-dev libfontconfig-dev libxcb-composite0 libxcb-composite0-dev libxcb-xinerama libxcb-randr libev libx11-xcb-dev libxkbcommon libxkbcommon-x11 libxkbfile-devel libjpeg-turbo`
+* Fedora 27: install `cairo-devel libev libev-devel libjpeg-devel libjpeg-turbo libxcb libxkbcommon libxkbcommon-x11 libxkbcommon-x11-devel libxkbfile-devel pam-devel pkg-config xcb-util-devel xcb-util-image xcb-util-image-devel`
